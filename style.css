@@ -3,7 +3,7 @@ body {More actions
 }
 
 header {
-    background: #BBBBBB;
+    background: #ffc5eb;
     padding: 20px 0;
 }
 
@@ -20,7 +20,7 @@ header {
 
 .principal {
     padding: 3em 0;
-    background: #FEFEFE;
+    background: #ddd2ff;
     width: 940px;
     margin: 0 auto;
 }
@@ -73,7 +73,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: #8ee6ff;
     text-decoration: underline;
 }
 
@@ -96,11 +96,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-    border-color: #C78C19;
+    border-color: #8ee6ff;
 }
 
 .produtos li:active {
-    border-color: #088C19;
+    border-color: #00f9ff;
 }
 
 .produtos h2 {
@@ -209,7 +209,7 @@ footer {
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background: orange;
+    background: #8ee6ff;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -220,7 +220,7 @@ footer {
 }
 
 .enviar:hover {
-    background: darkorange;
+    background: #8ee6ff;
     transform: scale(1.2);
 }
 
