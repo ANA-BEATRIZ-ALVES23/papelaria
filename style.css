@@ -252,6 +252,9 @@ td, th {
 .mapa-conteudo {
     width: 940px;
     margin: 0 auto;
+    display: fler;
+    justify-content: center;
+    align-items: center;
 }
 
 .video {
