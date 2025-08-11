@@ -209,7 +209,7 @@ footer {
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background: #8ee6ff;
+    background: rgb(73, 163, 188);
     color: white;
     font-weight: bold;
     font-size: 18px;
