@@ -96,11 +96,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-    border-color: #000000;
+    border-color: #cf9898;
 }
 
 .produtos li:active {
-    border-color: #000000;
+    border-color: #707070;
 }
 
 .produtos h2 {
@@ -128,7 +128,7 @@ main {
 
 .beneficios {
     padding: 3em 0;
-    background: #000000;
+    background: #f89b9b;
 }
 
 .conteudo-beneficios {
@@ -158,7 +158,7 @@ main {
     width: 60%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 10px 0 #000000;
+    box-shadow: 10px 10px 10px 0 #a75f5f;
 }
 
 .imagem-beneficios:hover {
