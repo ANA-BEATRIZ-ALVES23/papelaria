@@ -44,7 +44,7 @@ header {
 }
 
 .imagem-material.jpeg {
-    width: 60%;
+    width: 50%;
 }
 
 .caixa {
@@ -96,11 +96,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-    border-color: #8ee6ff;
+    border-color: #000000;
 }
 
 .produtos li:active {
-    border-color: #00f9ff;
+    border-color: #000000;
 }
 
 .produtos h2 {
@@ -128,7 +128,7 @@ main {
 
 .beneficios {
     padding: 3em 0;
-    background: #888888;
+    background: #000000;
 }
 
 .conteudo-beneficios {
