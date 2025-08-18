@@ -83,7 +83,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #8ee6ff;
+    color: var(--cor-preta;
     text-decoration: underline;
 }
 
