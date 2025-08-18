@@ -1,3 +1,13 @@
+:root{
+    /*cores personalisadas*/
+    --cor-principal:#23456;
+    --cor-escuro:#334b49;
+    --cor-segundaria:#95b1ae;
+    --cor-azulclaro:#fg1111;
+    --cor-aluzescuro:#8653ae;
+    --cor-branco:#ffffff;
+    --cor-preto:#000000;
+    }
 body {More actions
     font-family: 'Montserrat', sans-serif;
 }
