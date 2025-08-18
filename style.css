@@ -16,6 +16,10 @@ header {
     background: #ffc5eb;
     padding: 20px 0;
 }
+.hader-logo{
+    width: 90px;
+}
+
 
 .banner {
     width: 40%;
