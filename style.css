@@ -22,7 +22,7 @@ header {
 
 
 .banner {
-    width: 40%;
+    width: 100%;
 }
 
 .titulo-principal {
@@ -58,7 +58,7 @@ header {
 }
 
 .imagem-material.jpeg {
-    width: 50%;
+    width: 100;
 }
 
 .caixa {
@@ -108,7 +108,9 @@ nav a:hover {
     border: 2px solid var(--cor-segundaria);
     border-radius: 10px;
 }
-
+.imagem-produto{
+    width: 200px;
+}
 .produtos li:hover {
     border-color: var(--cor-ciano);
 }
@@ -215,7 +217,7 @@ footer {
 }
 
 .copyright {
-    color: #FFFFFF;
+    color: var(--cor-branco);
     font-size: 13px;
     margin: 20px 0 0;
 }
@@ -243,8 +245,8 @@ table {
 }
 
 thead {
-    background: #555555;
-    color: white;
+    background: var(--cor-escuro);
+    color: var(--cor-branco);
     font-weight: bold;
 }
 
@@ -255,7 +257,7 @@ td, th {
 
 .mapa {
     padding: 3em 0;
-    background-color: linear-gradient(#FEFEFE, #888888);
+    background-color: linear-gradient( var(--cor-branco), var(--cor-escuro));
 }
 
 .mapa p {
