@@ -80,7 +80,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: var(--cor-principal);
+    color: var(--cor-ciano);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
