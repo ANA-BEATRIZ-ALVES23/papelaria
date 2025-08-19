@@ -6,7 +6,7 @@ body {}
 }
 
 .principal {
-	background: #ffc5eb;
+	background: var(--cor-principal);
 	padding: 30px;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 em strong {
-	color: #000000;
+	color: var(--cor-preto);
 }
 
 .itens {
@@ -43,7 +43,7 @@ em strong {
 }
 
 .beneficios {
-	background: #ddd2ff;
+	background: var(--cor-segundaria);
 	padding: 20px;
 }
 
@@ -59,7 +59,7 @@ em strong {
 }
 
 header {
-	background: #00f9ff;
+	background: var(--cor-ciano);
 	padding: 20px 0;
 }
 
@@ -80,7 +80,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: var(--cor-preto);
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;

@@ -13,7 +13,7 @@ body {More actions
 }
 
 header {
-    background: #ffc5eb;
+    background: var(--cor-principal);
     padding: 20px 0;
 }
 .hader-logo{
@@ -34,7 +34,7 @@ header {
 
 .principal {
     padding: 3em 0;
-    background: #ddd2ff;
+    background: var(--cor-principal);
     width: 940px;
     margin: 0 auto;
 }
@@ -80,14 +80,14 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #f47eff;
+    color: var(--cor-principal);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: var(--cor-preta;
+    color: var(--cor-preto;
     text-decoration: underline;
 }
 
@@ -105,16 +105,16 @@ nav a:hover {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #c792e9;
+    border: 2px solid var(--cor-segundaria);
     border-radius: 10px;
 }
 
 .produtos li:hover {
-    border-color: #cf9898;
+    border-color: var(--cor-ciano);
 }
 
 .produtos li:active {
-    border-color: #707070;
+    border-color: var(--cor-azulclaro);
 }
 
 .produtos h2 {
@@ -142,7 +142,7 @@ main {
 
 .beneficios {
     padding: 3em 0;
-    background: #ffffff;
+    background: var(--cor-branco);
 }
 
 .conteudo-beneficios {
@@ -172,7 +172,7 @@ main {
     width: 60%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 10px 0 #d2d2d2;
+    box-shadow: 10px 10px 10px 0 var(--cor-ciano);
 }
 
 .imagem-beneficios:hover {
@@ -223,8 +223,8 @@ footer {
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background: rgb(73, 163, 188);
-    color: white;
+    background: var(--cor-ciano);
+    color: var(--cor-branco);
     font-weight: bold;
     font-size: 18px;
     border: none;
@@ -234,7 +234,7 @@ footer {
 }
 
 .enviar:hover {
-    background: #8ee6ff;
+    background: var(--cor-ciano);
     transform: scale(1.2);
 }
 
@@ -249,7 +249,7 @@ thead {
 }
 
 td, th {
-    border: 1px solid #787dff;
+    border: 1px solid var(--cor-segundaria);
     padding: 8px 15px;
 }
 
