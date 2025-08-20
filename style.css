@@ -58,8 +58,12 @@ header {
     margin: 0 20px 20px 0;
 }
 
-.imagem-material.jpeg {
-    width: 100;
+.material {
+    width: 100px;
+}
+
+.imagem-pintura {
+    width: 100px;
 }
 
 .caixa {
