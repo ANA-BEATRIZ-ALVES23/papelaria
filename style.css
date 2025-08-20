@@ -186,20 +186,20 @@ form {
     margin: 40px 0;
 }
 
-form legend {
+form-center legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input {
+form-center input {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
 
-.input-padrao {
+.form-center .input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
