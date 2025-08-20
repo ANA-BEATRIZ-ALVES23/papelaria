@@ -16,7 +16,8 @@ header {
     background: var(--cor-principal);
     padding: 20px 0;
 }
-.hader-logo{
+
+.header-logo {
     width: 90px;
 }
 
@@ -62,6 +63,8 @@ header {
 }
 
 .caixa {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     width: 940px;
     margin: 0 auto;
@@ -110,7 +113,7 @@ nav a:hover {
 }
 
 .imagem-produto{
-    width: 50px;
+    width: 250px;
 }
 .produtos li:hover {
     border-color: var(--cor-ciano);
@@ -137,10 +140,6 @@ nav a:hover {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
-}
-
-main {
-
 }
 
 .beneficios {
