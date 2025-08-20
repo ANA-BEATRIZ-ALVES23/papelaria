@@ -21,7 +21,6 @@ header {
     width: 90px;
 }
 
-
 .banner {
     width: 100%;
 }
@@ -60,15 +59,18 @@ header {
 
 .caligrafia {
     width: 100px;
+    align-items: center;
 }
 
 .imagem-pintura {
     width: 100px;
+    align-items: center;
 }
 
 .caixa {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: relative;
     width: 940px;
     margin: 0 auto;
@@ -82,7 +84,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin:15px;
 }
 
 nav a {
@@ -94,7 +96,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--cor-preto);
+    color: var(--cor-escuro);
     text-decoration: underline;
 }
 
