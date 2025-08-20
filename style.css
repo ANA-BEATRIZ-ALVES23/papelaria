@@ -8,7 +8,7 @@
     --cor-branco:#ffffff;
     --cor-preto:#000000;
     }
-body {More actions
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -87,7 +87,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--cor-preto;
+    color: var(--cor-preto);
     text-decoration: underline;
 }
 
@@ -108,8 +108,9 @@ nav a:hover {
     border: 2px solid var(--cor-segundaria);
     border-radius: 10px;
 }
+
 .imagem-produto{
-    width: 200px;
+    width: 50px;
 }
 .produtos li:hover {
     border-color: var(--cor-ciano);
@@ -185,7 +186,6 @@ form {
     margin: 40px 0;
 }
 
-form label,
 form legend {
     display: block;
     font-size: 20px;
