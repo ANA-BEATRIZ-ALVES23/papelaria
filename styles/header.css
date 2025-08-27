@@ -1,0 +1,17 @@
+header {
+    background: var(--cor-principal);
+    padding: 20px 0;
+}
+
+.caixa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+header-logo {
+    width: 90px;
+}

@@ -12,15 +12,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    background: var(--cor-principal);
-    padding: 20px 0;
-}
-
-header-logo {
-    width: 90px;
-}
-
 .banner {
     width: 100%;
 }
@@ -67,14 +58,7 @@ header-logo {
     align-items: center;
 }
 
-.caixa {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
+
 
 nav {
     position: absolute;
