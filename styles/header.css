@@ -1,5 +1,5 @@
 header {
-    background: var(--cor-principal);
+    background: #BBBBBB;
     padding: 20px 0;
 }
 
@@ -11,6 +11,7 @@ header {
     width: 940px;
     margin: 0 auto;
 }
+
 
 .logo {
     display: flex;
@@ -24,20 +25,20 @@ header {
     margin-right: 10px;
 }
 
+
 nav {
-    position: absolute;
     top: 110px;
     right: 0;
 }
 
 nav li {
     display: inline;
-    margin:15px;
+    margin: 0 0 0 15px;
 }
 
 nav a {
     text-transform: uppercase;
-    color: var(--cor-ciano);
+    color: var(--cor-clara);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
