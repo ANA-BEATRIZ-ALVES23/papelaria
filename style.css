@@ -199,11 +199,7 @@ form-center input {
     margin: 20px 0;
 }
 
-footer {
-    text-align: center;
-    background: url("img/bg.jpg");
-    padding: 40px 0;
-}
+
 
 .copyright {
     color: var(--cor-branco);
