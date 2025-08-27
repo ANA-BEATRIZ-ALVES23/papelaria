@@ -12,6 +12,36 @@ header {
     margin: 0 auto;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 header-logo {
     width: 90px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin:15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--cor-ciano);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--cor-escuro);
+    text-decoration: underline;
 }

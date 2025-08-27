@@ -60,29 +60,7 @@ body {
 
 
 
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
 
-nav li {
-    display: inline;
-    margin:15px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: var(--cor-ciano);
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: var(--cor-escuro);
-    text-decoration: underline;
-}
 
 .produtos {
     width: 940px;
