@@ -12,7 +12,6 @@ header {
     margin: 0 auto;
 }
 
-
 .logo {
     display: flex;
     align-items: center;
@@ -24,7 +23,6 @@ header {
     width: 90px;
     margin-right: 10px;
 }
-
 
 nav {
     top: 110px;
@@ -48,8 +46,15 @@ nav a:hover {
     color: var(--cor-escuro);
     text-decoration: underline;
 }
-/* Confiruracoes para tablets (telas medias) */
 
-@media screen and (max-width:480px) {
-    
+/* Estilização para Tablets (telas médias)    */
+@media screen and (min-width: 480px) {
+    #nome_empresa {
+        display: flex;
+    }
+}
+
+/* Estilização para Desktop (telas maiores)   */
+@media screen and (min-width: 1080px) {
+
 }
