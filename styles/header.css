@@ -48,3 +48,8 @@ nav a:hover {
     color: var(--cor-escuro);
     text-decoration: underline;
 }
+/* Confiruracoes para tablets (telas medias) */
+
+@media screen and (max-width:480px) {
+    
+}

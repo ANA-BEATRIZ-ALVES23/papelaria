@@ -3,6 +3,13 @@ footer {
     background: url("img/bg.jpg");
     padding: 40px 0;
 }
+
+.copyright {
+    color: var(--cor-branco);
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
 <footer>
         <img src="img/logo-transparent.png" alt="Logo da Papelaria">
         <p class="copyright">&copy; Copyright Papelaria Encantos de Papel - 2025</p>
