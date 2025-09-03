@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    width: 940px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -23,12 +23,17 @@ header {
     width: 100px;
     margin-right: 10px;
 }
+#nome_empresa {
+    display: none;
+}
 
 nav {
     top: 110px;
     right: 0;
 }
-
+nav ul {
+    display: grid;
+}
 nav li {
     display: inline;
     margin: 0 0 0 15px;
@@ -59,5 +64,7 @@ nav a:hover {
 
 /* Estilização para Desktop (telas maiores)   */
 @media screen and (min-width: 1080px) {
-
+    .caixa {
+        width: 940px;
+    }
 }

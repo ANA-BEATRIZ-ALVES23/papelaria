@@ -9,9 +9,15 @@
 }
 
 .mapa-conteudo {
-    width: 940px;
+    width: auto;
     margin: 0 auto;
     display: fler;
     justify-content: center;
     align-items: center;
+}
+/* Estilização para Desktop (telas maiores)   */
+@media screen and (min-width: 1080px) {
+    .mapa-conteudo {
+        width: 940px;
+    }
 }

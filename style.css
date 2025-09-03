@@ -48,7 +48,7 @@ img ~ p {
     
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+       .mapa-conteudo, .video {
         width: auto;
     }
 
@@ -65,3 +65,4 @@ img ~ p {
     }
 
 }
+    */

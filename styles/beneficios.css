@@ -10,7 +10,7 @@
 }
 
 .conteudo-beneficios {
-    width: 640px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -60,4 +60,10 @@
 .imagembeneficios {
     width: 60%;
 }
+}
+/* Estilização para Desktop (telas maiores)   */
+@media screen and (min-width: 1080px) {
+    .conteudo-beneficios {
+        width: 640px;
+    }
 }
